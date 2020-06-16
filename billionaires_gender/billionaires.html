@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  	<meta charset="utf-8">
+  	<title>Billionaires</title>
+    <!--<script src="d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
+    <script src="d3-geomap/js/d3.geomap.min.js"></script>-->
+
+  	<style>
+  		body {
+  			font-size: 13px;
+		}
+
+		.tooltip {
+			background: #91C7E2;
+			box-shadow: 0 0 5px #999999;
+			color: #333;
+			font-size: 12px;
+			left: 1050px;
+			padding: 5px;
+			position: absolute;
+			text-align: center;
+			top: 95px;
+			width: 150px;
+			z-index: 10;
+			display: block;
+			opacity: 0;
+		}        
+
+		.d3-tip {
+		  line-height: 1;
+		  font-weight: bold;
+		  padding: 5px;
+		  background: rgba(0, 0, 0, 0.8);
+		  color: #fff;
+		  border-radius: 2px;
+		  font: 12px sans-serif;
+		}
+
+		.d3-tip:after {
+		  box-sizing: border-box;
+		  display: inline;
+		  font-size: 5px;
+		  width: 100%;
+		  line-height: 1;
+		  color: rgba(0, 0, 0, 0.8);
+		  content: "\25BC";
+		  position: absolute;
+		  text-align: center;
+		}
+
+		/* Style northward tooltips differently */
+		.d3-tip.n:after {
+		  margin: -1px 0 0 0;
+		  top: 100%;
+		  left: 0;
+		}
+
+		.node {
+		  cursor: pointer;
+		}
+		.node:hover {
+		  stroke: #000;
+		  stroke-width: 1.5px;
+		}
+		.node--leaf {
+		  fill: white;
+		}
+		.label {
+		  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		  text-anchor: middle;
+		  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+		}
+		.label,
+		.node--root,
+		.node--leaf {
+		  pointer-events: none;
+		}
+	</style>
+  </head>
+
+  <body>
+    <svg></svg>
+    <svg id="svg3" width="1270" height="860"></svg>
+    <div id = "svgcontainer"></div>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="./d3.js"></script>
+    <script src="d3-tip.js"></script>
+    <script type="text/javascript">
+
+    	// Code aided by "Interactive Data Visualization for the Web" by Scott Murray
+    	
+    	// Padding around graph
+    	var padding = 100;
+
+    	// Read in the data from the csv file
+    	var data = d3.csv("Top10.csv", function(data) {
+	  		data.forEach(function(d) {
+	    	d['worth'] = +d['worth']/1000;
+	  		});
+	  		
+	  		var dataM = [];
+	  		var dataW = [];
+	  		var dataF = [];
+	  		var labels = [];
+	  		var labelsF = [];
+	  		for(i=0;i<10;i++){
+	  			dataW.push(data[i]['worth']);
+	  			dataM.push([data[i]['first'],data[i]['worth'],data[i]['source'],data[i]['age']]);
+	  			labels.push(data[i]['rank']);
+	  		}
+	  		for(i=10;i<data.length;i++){
+	  			dataF.push([data[i]['first'],data[i]['worth'],data[i]['source'],data[i]['age']]);
+	  		}
+
+	  	// Set the size of the svg and the size of each bar
+		var svgWidth = 600; 
+		var svgHeight = 500;
+		var barPadding = 10;
+		var barWidth = ((svgWidth - 2*padding) / dataM.length / 2);
+
+		// Set the y and x scales
+		const yScale = d3.scaleLinear()
+    		.range([svgHeight-2*padding, 0])
+    		.domain([0, d3.max(dataW)+8]);		
+
+    	const xScale = d3.scaleBand()
+    		.range([padding, svgWidth-padding+barPadding])
+		    .domain(labels)
+		    .padding(.2)
+
+		var tip = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return d[0] + ", age " + d[3] + ", " + d[2] + ", $" + d[1] + " billion" + "</span>";
+		  })
+
+		// Create the svg
+		var svg = d3.select('svg')
+		    .attr("width", svgWidth)
+		    .attr("height", svgHeight);
+
+		// Create grid lines
+		svg.append('g')
+    		.attr('transform', `translate(${padding}, ${padding})`)
+		    .attr('class', 'grid')
+		    .call(d3.axisLeft()
+		        .scale(yScale)
+		        .tickSize(-(svgWidth-2*padding), 0, 0)
+		        .tickFormat(''))
+
+		svg.call(tip);
+		
+		// Create bars    
+		var rectM = svg.selectAll("rectm")
+		    .data(dataM)
+		    .enter()
+		    .append("rect")
+		    .attr("fill", "#00A5E6")
+		    .attr("y", function(d,i) {
+		         return yScale(d[1]); 
+		    })
+		    .attr("height", function(d,i) { 
+		        return svgHeight - 2*padding - yScale(d[1]); 
+		    })
+		    .attr("width", barWidth-barPadding/2)
+		    .attr("transform", function (d, i) {
+		        var translate = [barWidth * 2 * i + padding + barPadding, padding]; 
+		        return "translate("+ translate +")";
+		    })
+		    .on('mouseover', tip.show)
+      		.on('mouseout', tip.hide);
+
+		var rectF = svg.selectAll("rectf")
+		    .data(dataF)
+		    .enter()
+		    .append("rect")
+		    .attr("fill", "mediumpurple")
+		    .attr("y", function(d,i) {
+		         return yScale(d[1]); 
+		    })
+		    .attr("height", function(d,i) { 
+		        return svgHeight - 2*padding - yScale(d[1]); 
+		    })
+		    .attr("width", barWidth-barPadding/2)
+		    .attr("transform", function (d, i) {
+		        var translate = [barWidth * 2 * i + padding + barPadding +(barWidth-barPadding/2), padding]; 
+		        return "translate("+ translate +")";
+		    })
+		    .on('mouseover', tip.show)
+      		.on('mouseout', tip.hide);
+
+
+		// Create X axis
+		svg.append("g")
+			.attr("class", "axis")
+			.attr("transform", "translate(0," + (svgHeight - padding) + ")")
+			.call(d3.axisBottom(xScale));
+
+		// Create Y axis
+		svg.append("g")
+		    .attr("class", "axis")
+		    .attr("transform", "translate(" + padding + "," + padding + ")")
+		    .call(d3.axisLeft(yScale).ticks(10));
+
+
+    	// Create the title
+		svg.append("text")
+	        .attr("x", (svgWidth / 2))             
+	        .attr("y", padding/2)
+	        .attr("text-anchor", "middle")  
+	        .style("font-size", "25px")  
+	        .style("font-color", "black")  
+	        .style("font-family", "Georgia")  
+	        .text("Top 10 Richest Male and Female Billionaires");
+
+	    // Create the axes labels
+		svg.append("text")
+	        .attr("x", (svgWidth / 2))             
+	        .attr("y", svgHeight - padding/2)
+	        .attr("text-anchor", "middle")  
+	        .style("font-size", "15px")  
+	        .style("font-color", "black")  
+	        .style("font-family", "Georgia")  
+	        .text("Rank");
+
+		svg.append("text")
+	        .attr("x", 0 - svgHeight/2)             
+	        .attr("y", padding/4+15)
+	        .attr("text-anchor", "middle") 
+	        .attr("transform", "rotate(-90)")   
+	        .style("font-size", "15px")  
+	        .style("font-color", "black")  
+	        .style("font-family", "Georgia")  
+	        .text("Worth in Billions");
+
+	   	// Create the legend
+	    svg.append("rect")
+		   .attr("x", svgWidth - 3*padding/4)
+		   .attr("y", svgHeight - 4*padding)
+		   .attr("height", 10)
+		   .attr("width", 10)
+		   .style("fill", "#00A5E6");
+
+		svg.append("rect")
+		   .attr("x", svgWidth - 3*padding/4)
+		   .attr("y", svgHeight - 4*padding+30)
+		   .attr("height", 10)
+		   .attr("width", 10)
+		   .style("fill", "mediumpurple");
+
+		svg.append("text")
+		   .text("Male")
+		   .attr("x", svgWidth - 3*padding/4 + 20)
+		   .attr("y", svgHeight - 4*padding+8)
+		   .attr("font-size", 15)
+		   .style("font-family", "Georgia");
+
+		svg.append("text")
+		   .text("Female")
+		   .attr("x", svgWidth - 3*padding/4+20)
+		   .attr("y", svgHeight - 4*padding+38)
+		   .attr("font-size", 15)
+		   .style("font-family", "Georgia");
+
+
+		});
+
+		
+		// Adapted from Mike Bostock's Example: https://observablehq.com/@d3/zoomable-circle-packing
+
+		var data = d3.csv("forbes_2018.csv", function(data2) {
+
+			data2.forEach(function(d) {
+	    		d['worth'] = +d['worth']/1000;
+	    		d['age'] = +d['age'];
+	  		});
+
+			// Set the size of the svg and the size of each bar
+			var svg2Width = 600; 
+			var svg2Height = 500;
+			var radius = Math.min(svg2Width, svg2Height) / 2 - padding
+
+			var female = 0;
+			var male = 0;
+
+			var femaleTotal = 0;
+			var maleTotal = 0;
+			var femaleAge = 0;
+			var maleAge = 0;
+
+			for(var i=0;i<data2.length;i++){
+				if (data2[i]['gender'] != ""){
+
+					if (data2[i]['gender'] == "F"){
+						female++;
+						femaleTotal = femaleTotal + data2[i]['worth'];
+						femaleAge = femaleAge + data2[i]['age'];
+					}
+					if (data2[i]['gender'] == "M"){
+						male++;
+						maleTotal = maleTotal + data2[i]['worth'];
+						maleAge = maleAge + data2[i]['age'];
+					}
+				}
+			}
+
+			var total = [maleTotal, femaleTotal];
+
+			var avgAges = [Math.round(maleAge/male), Math.round(femaleAge/female)];
+			console.log(maleAge);
+	  		
+			var dataset = {Male: male, Female: female};
+
+		var svg2 = d3.select("#svgcontainer")
+				.append("svg")
+				.attr("transform", "translate(" + svg2Width + "," + -2.72*svg2Height + ")")
+				.attr("width", svg2Width)
+				.attr("height", svg2Height);
+
+		var tooltip = d3.select('#svgcontainer')             
+          .append('div')                                  
+          .attr('class', 'tooltip');                       
+                      
+        tooltip.append('div')                       
+          .attr('class', 'total');                                   
+             
+        tooltip.append('div')                                        
+          .attr('class', 'age');                                      
+
+        tooltip.append('div')                                           
+          .attr('class', 'industry');
+
+		var color = d3.scaleOrdinal()
+		  .domain(dataset)
+		  .range(["#00A5E6","mediumpurple"]);
+
+		var pie = d3.pie()
+		  .value(function(d) {return d.value; })
+		
+		var data_ready = pie(d3.entries(dataset))
+
+		var arcGenerator = d3.arc()
+		  .innerRadius(0)
+		  .outerRadius(radius)
+
+		var path = svg2.selectAll('mySlices')
+			  .data(data_ready)
+			  .enter()
+			  .append('path')
+			    .attr('d', arcGenerator)
+			    .attr('fill', function(d,i){ 
+			    	return(color(d.data.key)) 
+			    })
+			    .attr("stroke", "black")
+			    .style("stroke-width", "2px")
+			    .attr("transform", "translate(" + svg2Width/2 + "," + svg2Height/2 + ")")
+				.on('mouseover', function(d,i){
+					var Total, Top3, backColor;
+					if (total[i] > 1000){
+					  		Total = "Total: $" + Math.round(total[i])/1000 + " trillion";
+					  	}
+					  	else{
+					  		Total = "Total: $" + Math.round(total[i]) + " billion";
+					  	}
+
+					if (i == 0){
+					  		Top3 = "Top Industry: Finance and Investments";
+					  	}
+					  	else{
+					  		Top3 = "Top Industry: Food and Beverage";
+					  	}
+
+					if (i == 0){
+						backColor = "#44BEEF"
+					}
+					else{
+						backColor = "#AC92DF"
+
+					}
+
+		            tooltip.select('.total').html(Total); 
+		            tooltip.select('.age').html("Average Age: " + avgAges[i]);                
+		            tooltip.select('.industry').html(Top3);             
+		            tooltip.style('display', 'block');
+		            tooltip.style('opacity',2);    
+		            tooltip.style('background', backColor);                       
+		          })       
+
+		   //        .on('mousemove', function(d) {
+					// 	tooltip.style('top', (d3.event.layerY + 10) + 'px')
+					// 	.style('left', (d3.event.layerX - 25) + 'px');
+					// })                                      
+		          
+		          .on('mouseout', function() {                  
+		            tooltip.style('display', 'none');                 
+		          });
+
+		svg2.selectAll('mySlices')
+			  .data(data_ready)
+			  .enter()
+			  .append('text')
+			  .html(function(d,i){ return d.data.key + ", </br>" + Math.round(d.data.value/(female+male) * 100) + "%"})
+			  .attr("transform", function(d) { 
+			  	var arc = arcGenerator.centroid(d);
+			  	return "translate(" + (arc[0]*1.5+ svg2Width/2-5) + "," + (arc[1]*1.5+ svg2Height/2) + ")";  })
+			  .style("text-anchor", "middle")
+			  .style("font-size", 14);
+
+		
+
+		svg2.append("text")
+	        .attr("x", (svg2Width / 2))             
+	        .attr("y", padding/2)
+	        .attr("text-anchor", "middle")  
+	        .style("font-size", "25px")  
+	        .style("font-color", "black")  
+	        .style("font-family", "Georgia")  
+	        .text("Billionaires by Gender");
+
+		});
+
+		var svg3 = d3.select("#svg3")
+	    var margin = 100;
+	    var diameter = +svg3.attr("height");
+	    var g = svg3.append("g").attr("transform", "translate(" + (diameter/2+200) + "," + diameter/2 + ")");
+
+	var color = d3.scaleLinear()
+	    .domain([-1, 5])
+	    .range(["hsl(200,80%,80%)", "hsl(200,30%,40%)"])
+	    .interpolate(d3.interpolateHcl);
+
+	var pack = d3.pack()
+	    .size([diameter - margin, diameter - margin])
+	    .padding(2);
+
+	d3.json("Top100.json", function(error, root) {
+
+	  if (error) throw error;
+
+	  root = d3.hierarchy(root)
+	      .sum(function(d) { return d.size; })
+	      .sort(function(a, b) { return b.value - a.value; });
+
+	  var focus = root,
+	      nodes = pack(root).descendants(),
+	      view;
+
+	  var circle = g.selectAll("circle")
+	    .data(nodes)
+	    .enter().append("circle")
+	      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+	      .style("fill", function(d) {
+	        if (d.children == undefined && d.data.gender == "F"){
+	          return "mediumpurple";
+	        }
+	        else{
+	          return d.children ? color(d.depth) : null; }
+	        })
+	      .on("click", function(d) {if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+
+	  var text = g.selectAll("text")
+	    .data(nodes)
+	    .enter().append("text")
+	      .attr("class", "label")
+	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+	      .text(function(d) { 
+	        if (d.data.size != undefined){
+	            return d.data.rank + ". " + d.data.name + ", " + d.data.source + ", $" + d.data.size/1000 + " billion";
+	          }
+	        else{
+	           return d.data.name;
+	        }
+	      });
+
+	  var node = g.selectAll("circle,text");
+
+	  svg3.on("click", function() { zoom(root); });
+
+	  zoomTo([root.x, root.y, root.r * 2 + margin]);
+
+	  function zoom(d) {
+	    var focus0 = focus; focus = d;
+	    var transition = d3.transition()
+	        .duration(d3.event.altKey ? 7500 : 750)
+	        .tween("zoom", function(d) {
+	          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+	          return function(t) { zoomTo(i(t)); };
+	        });
+
+	    text.filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+	    	.transition(transition)
+	        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+	        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+	        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+	  }
+
+	  function zoomTo(v) {
+	    var k = diameter / v[2]; view = v;
+	    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+	    circle.attr("r", function(d) { return d.r * k; });
+	  }
+
+	svg3.append("text")
+        .attr("x", (diameter/2 + 200))             
+        .attr("y", margin/4)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "25px")  
+        .style("font-color", "black")  
+        .style("font-family", "Georgia")  
+        .text("Top 100 Richest Billionaires by Country and Industry");
+
+    svg3.append("circle")
+		   .attr("cx", diameter+1.3*margin)
+		   .attr("cy", margin)
+		   .attr("r", 15)
+		   .style("fill", "mediumpurple");
+
+		svg3.append("text")
+		   .text("Female Billionaires")
+		   .attr("x", diameter +1.25*margin + 30)
+		   .attr("y", margin+3)
+		   .attr("font-size", 15)
+		   .style("font-family", "Georgia");
+
+	});
+
+    </script>
+    <script></script>
+  </body>
+
+</html>

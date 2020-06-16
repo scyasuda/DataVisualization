@@ -1,0 +1,1434 @@
+{  
+"name": "flare",
+"children": [
+    {
+      "name": "United States",
+      "children": [
+         {
+            "name": "Technology", "children": [{
+            "rank": 1,
+            "name": "Jeff Bezos",
+            "last": "Bezos",
+            "age": 54,
+            "country": "United States",
+            "gender": "M",
+            "source": "Amazon",
+            "industry": "Technology",
+            "size": 112000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d920d31358e4955adf197/416x416.jpg?background=000000&cropX1=755&cropX2=2357&cropY1=494&cropY2=2097"
+          },
+          {
+            "rank": 2,
+            "name": "Bill Gates",
+            "last": "Gates",
+            "age": 62,
+            "country": "United States",
+            "gender": "M",
+            "source": "Microsoft",
+            "industry": "Technology",
+            "size": 90000,
+            "worthChange": -0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a942b7b31358e79a28a452b/416x416.jpg?background=000000&cropX1=285&cropX2=3498&cropY1=146&cropY2=3360"
+          },
+          {
+            "rank": 5,
+            "name": "Mark Zuckerberg",
+            "last": "Zuckerberg",
+            "age": 34,
+            "country": "United States",
+            "gender": "M",
+            "source": "Facebook",
+            "industry": "Technology",
+            "size": 71000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d5062131358e542c034eb7/416x416.jpg?background=000000&cropX1=419&cropX2=1409&cropY1=53&cropY2=1044"
+          },
+          {
+            "rank": 10,
+            "name": "Larry Ellison",
+            "last": "Ellison",
+            "age": 73,
+            "country": "United States",
+            "gender": "M",
+            "source": "software",
+            "industry": "Technology",
+            "size": 58500,
+            "worthChange": -0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d9263a7ea431690140251/416x416.jpg?background=000000&cropX1=0&cropX2=2000&cropY1=197&cropY2=2198"
+          },
+          {
+            "rank": 12,
+            "name": "Larry Page",
+            "last": "Page",
+            "age": 45,
+            "country": "United States",
+            "gender": "M",
+            "source": "Google",
+            "industry": "Technology",
+            "size": 48800,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d5098d4bbe6f37dd9ff6bc/416x416.jpg?background=000000&cropX1=1176&cropX2=2904&cropY1=222&cropY2=1950"
+          },
+          {
+            "rank": 13,
+            "name": "Sergey Brin",
+            "last": "Brin",
+            "age": 44,
+            "country": "United States",
+            "gender": "M",
+            "source": "Google",
+            "industry": "Technology",
+            "size": 47500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d93da31358e4955adf1c9/416x416.jpg?background=000000&cropX1=1399&cropX2=3806&cropY1=290&cropY2=2695"
+          },
+          {
+            "rank": 22,
+            "name": "Steve Ballmer",
+            "last": "Ballmer",
+            "age": 62,
+            "country": "United States",
+            "gender": "M",
+            "source": "Microsoft",
+            "industry": "Technology",
+            "size": 38400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=656&cropX2=2920&cropY1=354&cropY2=2617"
+          },
+          {
+            "rank": 39,
+            "name": "Michael Dell",
+            "last": "Dell",
+            "age": 53,
+            "country": "United States",
+            "gender": "M",
+            "source": "Dell computers",
+            "industry": "Technology",
+            "size": 22700,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/58c1d2e731358e1a35acba6b/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=163&cropY2=907"
+          },
+          {
+            "rank": 44,
+            "name": "Paul Allen",
+            "last": "Allen",
+            "age": 65,
+            "country": "United States",
+            "gender": "M",
+            "source": "Microsoft, investments",
+            "industry": "Technology",
+            "size": 21700,
+            "worthChange": 0,
+            "image": "https:http://specials-images.forbesimg.com/imageserve/57f4fbeb4bbe6f75c4fda22d/416x416.jpg?background=000000&cropX1=82&cropX2=675&cropY1=8&cropY2=601"
+          }]},
+         {"name": "Fashion & Retail", "children": [{
+            "rank": 14,
+            "name": "Jim Walton",
+            "last": "Walton",
+            "age": 70,
+            "country": "United States",
+            "gender": "M",
+            "source": "Walmart",
+            "industry": "Fashion & Retail",
+            "size": 46400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/56d1b7cce4b0c144a7f6639f/416x416.jpg?background=000000&cropX1=110&cropX2=516&cropY1=35&cropY2=441"
+          },
+          {
+            "rank": 15,
+            "name": "S. Robson Walton",
+            "last": "Walton",
+            "age": 73,
+            "country": "United States",
+            "gender": "M",
+            "source": "Walmart",
+            "industry": "Fashion & Retail",
+            "size": 46200,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=207&cropX2=1915&cropY1=82&cropY2=1791"
+          },
+          {
+            "rank": 16,
+            "name": "Alice Walton",
+            "last": "Walton",
+            "age": 68,
+            "country": "United States",
+            "gender": "F",
+            "source": "Walmart",
+            "industry": "Fashion & Retail",
+            "size": 46000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50b364bbe6f37dd9ff759/416x416.jpg?background=000000&cropX1=97&cropX2=1126&cropY1=114&cropY2=1143"
+          },
+          {
+            "rank": 28,
+            "name": "Phil Knight",
+            "last": "Knight",
+            "age": 80,
+            "country": "United States",
+            "gender": "M",
+            "source": "Nike",
+            "industry": "Fashion & Retail",
+            "size": 29600,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d930431358e4955adf1bb/416x416.jpg?background=000000&cropX1=1463&cropX2=2400&cropY1=35&cropY2=972"
+          },
+          {
+            "rank": 85,
+            "name": "Lukas Walton",
+            "last": "Walton",
+            "age": 31,
+            "country": "United States",
+            "gender": "M",
+            "source": "Walmart",
+            "industry": "Fashion & Retail",
+            "size": 15900,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80c98d31358e4955ad2cc0/416x416.jpg?background=000000&cropX1=75&cropX2=2250&cropY1=5&cropY2=2181"
+          }]},
+         {"name": "Finance and Investments", "children": [{
+            "rank": 3,
+            "name": "Warren Buffett",
+            "last": "Buffett",
+            "age": 87,
+            "country": "United States",
+            "gender": "M",
+            "source": "Berkshire Hathaway",
+            "industry": "Finance and Investments",
+            "size": 84000,
+            "worthChange": -0.002,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d9b3a31358e4955adf300/416x416.jpg?background=000000&cropX1=378&cropX2=2650&cropY1=52&cropY2=2322"
+          },
+          {
+            "rank": 47,
+            "name": "Thomas Peterffy",
+            "last": "Peterffy",
+            "age": 73,
+            "country": "United States",
+            "gender": "M",
+            "source": "discount brokerage",
+            "industry": "Finance and Investments",
+            "size": 20300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d55c694bbe6f37dda00008/416x416.jpg?background=000000&cropX1=904&cropX2=2836&cropY1=905&cropY2=2839"
+          },
+          {
+            "rank": 52,
+            "name": "James Simons",
+            "last": "Simons",
+            "age": 80,
+            "country": "United States",
+            "gender": "M",
+            "source": "hedge funds",
+            "industry": "Finance and Investments",
+            "size": 20000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d914e4bbe6f2652f61c2f/416x416.jpg?background=000000&cropX1=2670&cropX2=3520&cropY1=341&cropY2=1190"
+          },
+          {
+            "rank": 67,
+            "name": "Ray Dalio",
+            "last": "Dalio",
+            "age": 68,
+            "country": "United States",
+            "gender": "M",
+            "source": "hedge funds",
+            "industry": "Finance and Investments",
+            "size": 17700,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5ac959f74bbe6f2310f1e05c/416x416.jpg?background=000000&cropX1=777&cropX2=3143&cropY1=114&cropY2=2478"
+          },
+          {
+            "rank": 73,
+            "name": "Carl Icahn",
+            "last": "Icahn",
+            "age": 82,
+            "country": "United States",
+            "gender": "M",
+            "source": "investments",
+            "industry": "Finance and Investments",
+            "size": 16800,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/57e5739ca7ea430a8a1a2b8f/416x416.jpg?background=000000&cropX1=74&cropX2=744&cropY1=74&cropY2=744"
+          },
+          {
+            "rank": 83,
+            "name": "Abigail Johnson",
+            "last": "Johnson",
+            "age": 56,
+            "country": "United States",
+            "gender": "F",
+            "source": "money management",
+            "industry": "Finance and Investments",
+            "size": 15900,
+            "worthChange": 0,
+            "image": "https:http://specials-images.forbesimg.com/imageserve/57e570c54bbe6f24d1f891b6/416x416.jpg?background=000000&cropX1=63&cropX2=615&cropY1=68&cropY2=621"
+          }]},
+         {"name": "Diversified", "children": [{
+            "rank": 8,
+            "name": "Charles Koch",
+            "last": "Koch",
+            "age": 82,
+            "country": "United States",
+            "gender": "M",
+            "source": "Koch Industries",
+            "industry": "Diversified",
+            "size": 60000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5638b4b5e4b0ffa7afe69a7f/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=53&cropY2=797"
+          },
+          {
+            "rank": 9,
+            "name": "David Koch",
+            "last": "Koch",
+            "age": 78,
+            "country": "United States",
+            "gender": "M",
+            "source": "Koch Industries",
+            "industry": "Diversified",
+            "size": 60000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d901531358e4955adf139/416x416.jpg?background=000000&cropX1=0&cropX2=2400&cropY1=81&cropY2=2481"
+          },
+          {
+            "rank": 49,
+            "name": "Len Blavatnik",
+            "last": "Blavatnik",
+            "age": 61,
+            "country": "United States",
+            "gender": "M",
+            "source": "diversified",
+            "industry": "Diversified",
+            "size": 20200,
+            "worthChange": -0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50f2831358e542c034f95/416x416.jpg?background=000000&cropX1=963&cropX2=2028&cropY1=234&cropY2=1299"
+          }]},
+         {"name": "Media & Entertainment", "children": [{
+            "rank": 11,
+            "name": "Michael Bloomberg",
+            "last": "Bloomberg",
+            "age": 76,
+            "country": "United States",
+            "gender": "M",
+            "source": "Bloomberg LP",
+            "industry": "Media & Entertainment",
+            "size": 50000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/58c1d278a7ea431f321add1f/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=40&cropY2=784"
+          },
+          {
+            "rank": 94,
+            "name": "Rupert Murdoch",
+            "last": "Murdoch",
+            "age": 87,
+            "country": "United States",
+            "gender": "M",
+            "source": "newspapers, TV network",
+            "industry": "Media & Entertainment",
+            "size": 15000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d934d4bbe6f2652f61c74/416x416.jpg?background=000000&cropX1=0&cropX2=1559&cropY1=81&cropY2=1639"
+          }]},
+         {"name": "Gambling & Casinos", "children": [{
+            "rank": 21,
+            "name": "Sheldon Adelson",
+            "last": "Adelson",
+            "age": 84,
+            "country": "United States",
+            "gender": "M",
+            "source": "casinos",
+            "industry": "Gambling & Casinos",
+            "size": 38500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d9420a7ea43169014027b/416x416.jpg?background=000000&cropX1=935&cropX2=3219&cropY1=79&cropY2=2362"
+          }]},
+         {"name": "Food and Beverage", "children": [{
+            "rank": 34,
+            "name": "Jacqueline Mars",
+            "last": "Mars",
+            "age": 78,
+            "country": "United States",
+            "gender": "F",
+            "source": "candy, pet food",
+            "industry": "Food and Beverage",
+            "size": 23600,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50d06a7ea436b47b36d84/416x416.jpg?background=000000&cropX1=154&cropX2=1649&cropY1=394&cropY2=1889"
+          },
+          {
+            "rank": 35,
+            "name": "John Mars",
+            "last": "Mars",
+            "age": 82,
+            "country": "United States",
+            "gender": "M",
+            "source": "candy, pet food",
+            "industry": "Food and Beverage",
+            "size": 23600,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/59d50d06a7ea436b47b36d84/416x416.jpg?background=000000&cropX1=154&cropX2=1649&cropY1=394&cropY2=1889"
+          }]},
+         {"name": "Automotive", "children": [{
+            "rank": 54,
+            "name": "Elon Musk",
+            "last": "Musk",
+            "age": 46,
+            "country": "United States",
+            "gender": "M",
+            "source": "Tesla Motors",
+            "industry": "Automotive",
+            "size": 19900,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8d90fd4bbe6f2652f61c15/416x416.jpg?background=000000&cropX1=0&cropX2=1999&cropY1=159&cropY2=2159"
+          }]},
+         {"name": "Philanthropy/NGO", "children": [{
+            "rank": 58,
+            "name": "Laurene Powell Jobs",
+            "last": "Powell Jobs",
+            "age": 54,
+            "country": "United States",
+            "gender": "F",
+            "source": "Apple, Disney",
+            "industry": "Philanthropy/NGO",
+            "size": 18800,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a270a504bbe6f37e65991c9/416x416.jpg?background=000000&cropX1=1150&cropX2=4486&cropY1=0&cropY2=3333"
+          }]},
+         {"name": "Real Estate", "children": [{
+            "rank": 80,
+            "name": "Donald Bren",
+            "last": "Bren",
+            "age": 86,
+            "country": "United States",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 16300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/57e575c94bbe6f24d1f891ce/416x416.jpg?background=000000&cropX1=126&cropX2=651&cropY1=31&cropY2=556"
+          }]}
+      ]
+    },
+    {
+      "name": "France",
+      "children": [
+         {"name": "Fashion & Retail", "children": [{
+            "rank": 4,
+            "name": "Bernard Arnault",
+            "last": "Arnault",
+            "age": 69,
+            "country": "France",
+            "gender": "M",
+            "source": "LVMH",
+            "industry": "Fashion & Retail",
+            "size": 72000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7de808a7ea431690131adf/416x416.jpg?background=000000&cropX1=125&cropX2=2852&cropY1=11&cropY2=2736"
+          },
+          {
+            "rank": 18,
+            "name": "Francoise Bettencourt Meyers",
+            "last": "Bettencourt Meyers",
+            "age": 64,
+            "country": "France",
+            "gender": "F",
+            "source": "L'Oreal",
+            "industry": "Fashion & Retail",
+            "size": 42200,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7def7631358e4955ad0a53/416x416.jpg?background=000000&cropX1=192&cropX2=973&cropY1=69&cropY2=849"
+          },
+          {
+            "rank": 30,
+            "name": "Francois Pinault",
+            "last": "Pinault",
+            "age": 81,
+            "country": "France",
+            "gender": "M",
+            "source": "luxury goods",
+            "industry": "Fashion & Retail",
+            "size": 27000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7def27a7ea431690131b94/416x416.jpg?background=000000&cropX1=12&cropX2=2668&cropY1=208&cropY2=2866"
+          }]},
+         {"name": "Diversified", "children": [{
+            "rank": 41,
+            "name": "Serge Dassault",
+            "last": "Dassault",
+            "age": 93,
+            "country": "France",
+            "gender": "M",
+            "source": "diversified",
+            "industry": "Diversified",
+            "size": 22600,
+            "worthChange": null,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7dfc4a31358e4955ad0b78/416x416.jpg?background=000000&cropX1=598&cropX2=3315&cropY1=99&cropY2=2816"
+          }]},
+         {"name": "Food and Beverage", "children": [ {
+            "rank": 97,
+            "name": "Emmanuel Besnier",
+            "last": "Besnier",
+            "age": 47,
+            "country": "France",
+            "gender": "M",
+            "source": "cheese",
+            "industry": "Food and Beverage",
+            "size": 14700,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/4f21e64d970512f81a766649fb072f0d/416x416.jpg?background=000000&cropX1=3&cropX2=744&cropY1=2&cropY2=743"
+          }]}
+      ]
+    },
+    {
+      "name": "Spain",
+      "children": [{"name": "Fashion & Retail", "children": [{
+         "rank": 6,
+         "name": "Amancio Ortega",
+         "last": "Ortega",
+         "age": 82,
+         "country": "Spain",
+         "gender": "M",
+         "source": "Zara",
+         "industry": "Fashion & Retail",
+         "size": 70000,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a810ce6a7ea431690133fe6/416x416.jpg?background=000000&cropX1=250&cropX2=2266&cropY1=4&cropY2=2019"
+       }]}]
+    },
+    {
+      "name": "Mexico",
+      "children": [
+         {"name": "Telecom", "children": [{
+            "rank": 7,
+            "name": "Carlos Slim Helu",
+            "last": "Slim Helu",
+            "age": 78,
+            "country": "Mexico",
+            "gender": "M",
+            "source": "telecom",
+            "industry": "Telecom",
+            "size": 67100,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7fcad931358e4955ad21fc/416x416.jpg?background=000000&cropX1=247&cropX2=2010&cropY1=226&cropY2=1990"
+          }]},
+         {"name": "Metals & Mining", "children": [{
+            "rank": 72,
+            "name": "German Larrea Mota Velasco",
+            "last": "Larrea Mota Velasco",
+            "age": 64,
+            "country": "Mexico",
+            "gender": "M",
+            "source": "mining",
+            "industry": "Metals & Mining",
+            "size": 17300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/597a47174bbe6f3eb800b6b8/416x416.jpg?background=000000&cropX1=1901&cropX2=3603&cropY1=368&cropY2=2069"
+          }]}
+      ]
+    },
+    {
+      "name": "China",
+      "children": [
+         {"name": "Technology", "children": [{
+            "rank": 17,
+            "name": "Ma Huateng",
+            "last": "Ma",
+            "age": 46,
+            "country": "China",
+            "gender": "M",
+            "source": "internet media",
+            "industry": "Technology",
+            "size": 45300,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7cdf46a7ea431690130bf0/416x416.jpg?background=000000&cropX1=1094&cropX2=3921&cropY1=6&cropY2=2832"
+          },
+          {
+            "rank": 20,
+            "name": "Jack Ma",
+            "last": "Ma",
+            "age": 53,
+            "country": "China",
+            "gender": "M",
+            "source": "e-commerce",
+            "industry": "Technology",
+            "size": 39000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5aa1598031358e79a28b5731/416x416.jpg?background=000000&cropX1=1454&cropX2=3297&cropY1=547&cropY2=2389"
+          },
+          {
+            "rank": 69,
+            "name": "William Ding",
+            "last": "Ding",
+            "age": 46,
+            "country": "China",
+            "gender": "M",
+            "source": "online games",
+            "industry": "Technology",
+            "size": 17400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7d09364bbe6f2652f51155/416x416.jpg?background=000000&cropX1=4&cropX2=1672&cropY1=396&cropY2=2063"
+          },
+          {
+            "rank": 87,
+            "name": "Zhang Zhidong",
+            "last": "Zhang",
+            "age": 46,
+            "country": "China",
+            "gender": "M",
+            "source": "internet media",
+            "industry": "Technology",
+            "size": 15600,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/8c2c90c2667221740e4fe57cde754bf8/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=18&cropY2=762"
+          }]},
+         {"name": "Real Estate", "children": [{
+            "rank": 24,
+            "name": "Hui Ka Yan",
+            "last": "Hui",
+            "age": 59,
+            "country": "China",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 30300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5aecc8f4a7ea436b547c4c52/416x416.jpg?background=000000&cropX1=372&cropX2=2640&cropY1=490&cropY2=2756"
+          },
+          {
+            "rank": 26,
+            "name": "Wang Jianlin",
+            "last": "Wang",
+            "age": 63,
+            "country": "China",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 30000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7cf67f4bbe6f2652f510d4/416x416.jpg?background=000000&cropX1=810&cropX2=4091&cropY1=0&cropY2=3280"
+          },
+          {
+            "rank": 43,
+            "name": "Yang Huiyan",
+            "last": "Yang",
+            "age": 36,
+            "country": "China",
+            "gender": "F",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 21900,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a0b1b83a7ea436b47b558ba/416x416.jpg?background=000000&cropX1=1&cropX2=600&cropY1=3&cropY2=602"
+          }]},
+         {"name": "Manufacturing", "children": {
+            "rank": 50,
+            "name": "He Xiangjian",
+            "last": "He",
+            "age": 75,
+            "country": "China",
+            "gender": "M",
+            "source": "home appliances",
+            "industry": "Manufacturing",
+            "size": 20100,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7cb54ca7ea431690130761/416x416.jpg?background=000000&cropX1=210&cropX2=1953&cropY1=660&cropY2=2404"
+          }},
+         {"name": "Service", "children": [{
+            "rank": 63,
+            "name": "Wang Wei",
+            "last": "Wang",
+            "age": 48,
+            "country": "China",
+            "gender": "M",
+            "source": "package delivery",
+            "industry": "Service",
+            "size": 18200,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7cf9f7a7ea431690130d30/416x416.jpg?background=000000&cropX1=1243&cropX2=2927&cropY1=150&cropY2=1834"
+          }]},
+         {"name": "Automotive", "children":[{
+            "rank": 92,
+            "name": "Li Shufu",
+            "last": "Li",
+            "age": 55,
+            "country": "China",
+            "gender": "M",
+            "source": "automobiles",
+            "industry": "Automotive",
+            "size": 15300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7ccad231358e4955acf931/416x416.jpg?background=000000&cropX1=488&cropX2=1703&cropY1=161&cropY2=1377"
+          }]}
+      ]
+    },
+    {
+      "name": "India",
+      "children": [
+         {"name": "Technology", "children": [{
+            "rank": 59,
+            "name": "Azim Premji",
+            "last": "Premji",
+            "age": 72,
+            "country": "India",
+            "gender": "M",
+            "source": "software services",
+            "industry": "Technology",
+            "size": 18800,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7f0e8231358e4955ad1813/416x416.jpg?background=000000&cropX1=979&cropX2=3562&cropY1=11&cropY2=2592"
+          },
+          {
+            "rank": 98,
+            "name": "Shiv Nadar",
+            "last": "Nadar",
+            "age": 72,
+            "country": "India",
+            "gender": "M",
+            "source": "software services",
+            "industry": "Technology",
+            "size": 14600,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/37d84982997cb979720fb6f28fa88067/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=111&cropY2=855"
+          }]},
+         {"name": "Energy", "children": [{
+            "rank": 19,
+            "name": "Mukesh Ambani",
+            "last": "Ambani",
+            "age": 61,
+            "country": "India",
+            "gender": "M",
+            "source": "petrochemicals, oil & gas",
+            "industry": "Energy",
+            "size": 40100,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7f3b7931358e4955ad1a39/416x416.jpg?background=000000&cropX1=5&cropX2=1013&cropY1=214&cropY2=1223"
+          }]},
+         {"name": "Metals & Mining", "children": [{
+            "rank": 62,
+            "name": "Lakshmi Mittal",
+            "last": "Mittal",
+            "age": 68,
+            "country": "India",
+            "gender": "M",
+            "source": "steel",
+            "industry": "Metals & Mining",
+            "size": 18500,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/59cbfbf5a7ea434a34f46a72/416x416.jpg?background=000000&cropX1=15&cropX2=2362&cropY1=10&cropY2=2359"
+          }]}
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "children": [
+         {"name": "Diversified", "children": [{
+            "rank": 23,
+            "name": "Li Ka-shing",
+            "last": "Li",
+            "age": 90,
+            "country": "Hong Kong",
+            "gender": "M",
+            "source": "diversified",
+            "industry": "Diversified",
+            "size": 34900,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7e6e914bbe6f2652f52a98/416x416.jpg?background=000000&cropX1=623&cropX2=3280&cropY1=6&cropY2=2661"
+          }]},
+         {"name": "Real Estate", "children": [{
+            "rank": 25,
+            "name": "Lee Shau Kee",
+            "last": "Lee",
+            "age": 90,
+            "country": "Hong Kong",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 30300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a579beba7ea431690109b54/416x416.jpg?background=000000&cropX1=24&cropX2=1040&cropY1=66&cropY2=1082"
+          },
+          {
+            "rank": 76,
+            "name": "Joseph Lau",
+            "last": "Lau",
+            "age": 66,
+            "country": "Hong Kong",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 16700,
+            "worthChange": -0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7e6ca6a7ea431690132547/416x416.jpg?background=000000&cropX1=125&cropX2=1076&cropY1=81&cropY2=1033"
+          },
+          {
+            "rank": 77,
+            "name": "Thomas & Raymond Kwok",
+            "last": "Kwok",
+            "age": null,
+            "country": "Hong Kong",
+            "gender": "M",
+            "source": "real estate",
+            "industry": "Real Estate",
+            "size": 16500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a579cfd4bbe6f2652f2517c/416x416.jpg?background=000000&cropX1=152&cropX2=1061&cropY1=6&cropY2=915"
+          }]},
+         {"name": "Gambling & Casinos", "children": [{
+            "rank": 51,
+            "name": "Lui Che Woo",
+            "last": "Lui",
+            "age": 89,
+            "country": "Hong Kong",
+            "gender": "M",
+            "source": "casinos",
+            "industry": "Gambling & Casinos",
+            "size": 20100,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7e7153a7ea431690132553/416x416.jpg?background=000000&cropX1=1591&cropX2=4746&cropY1=14&cropY2=3168"
+          }]}
+      ]
+    },
+    {
+      "name": "Germany",
+      "children": [
+      {"name": "Fashion & Retail", "children": [{
+         "rank": 27,
+         "name": "Beate Heister & Karl Albrecht Jr.",
+         "last": "Albrecht Jr.",
+         "age": 66,
+         "country": "Germany",
+         "gender": "",
+         "source": "supermarkets",
+         "industry": "Fashion & Retail",
+         "size": 29800,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7e087531358e4955ad0cfe/416x416.jpg?background=000000&cropX1=19&cropX2=2172&cropY1=186&cropY2=2340"
+       },
+       {
+         "rank": 46,
+         "name": "Dieter Schwarz",
+         "last": "Schwarz",
+         "age": 78,
+         "country": "Germany",
+         "gender": "M",
+         "source": "retail",
+         "industry": "Fashion & Retail",
+         "size": 20900,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7f931f31358e4955ad1e20/416x416.jpg?background=000000&cropX1=4&cropX2=1440&cropY1=4&cropY2=1440"
+       },
+       {
+         "rank": 48,
+         "name": "Theo Albrecht, Jr.",
+         "last": "Albrecht",
+         "age": 67,
+         "country": "Germany",
+         "gender": "M",
+         "source": "Aldi, Trader Joe's",
+         "industry": "Fashion & Retail",
+         "size": 20200,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/59d55c694bbe6f37dda00008/416x416.jpg?background=000000&cropX1=904&cropX2=2836&cropY1=905&cropY2=2839"
+       }]},
+      {"name": "Automotive", "children": [{
+         "rank": 31,
+         "name": "Georg Schaeffler",
+         "last": "Schaeffler",
+         "age": 53,
+         "country": "Germany",
+         "gender": "M",
+         "source": "auto parts",
+         "industry": "Automotive",
+         "size": 25300,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7e12b631358e4955ad0fb2/416x416.jpg?background=000000&cropX1=835&cropX2=3880&cropY1=0&cropY2=3042"
+       },
+       {
+         "rank": 32,
+         "name": "Susanne Klatten",
+         "last": "Klatten",
+         "age": 56,
+         "country": "Germany",
+         "gender": "F",
+         "source": "BMW, pharmaceuticals",
+         "industry": "Automotive",
+         "size": 25000,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7e45f64bbe6f2652f5295a/416x416.jpg?background=000000&cropX1=10&cropX2=1120&cropY1=126&cropY2=1236"
+       },
+       {
+         "rank": 42,
+         "name": "Stefan Quandt",
+         "last": "Quandt",
+         "age": 52,
+         "country": "Germany",
+         "gender": "M",
+         "source": "BMW",
+         "industry": "Automotive",
+         "size": 22000,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/56c7cdc0e4b062f6b59a2400/416x416.jpg?background=000000&cropX1=5&cropX2=744&cropY1=3&cropY2=743"
+       }]},
+      {"name": "Logistics", "children": [{
+         "rank": 91,
+         "name": "Klaus-Michael Kuehne",
+         "last": "Kuehne",
+         "age": 81,
+         "country": "Germany",
+         "gender": "M",
+         "source": "shipping",
+         "industry": "Logistics",
+         "size": 15300,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7e288b31358e4955ad1159/416x416.jpg?background=000000&cropX1=2640&cropX2=4000&cropY1=400&cropY2=1760"
+       }]}
+      ]
+    },
+    {
+      "name": "Brazil",
+      "children": [
+         {"name": "Food and Beverage", "children": [{
+            "rank": 29,
+            "name": "Jorge Paulo Lemann",
+            "last": "Lemann",
+            "age": 78,
+            "country": "Brazil",
+            "gender": "M",
+            "source": "beer",
+            "industry": "Food and Beverage",
+            "size": 27400,
+            "worthChange": -672.311,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7b803c4bbe6f2652f4ef67/416x416.jpg?background=000000&cropX1=794&cropX2=3457&cropY1=6&cropY2=2667"
+          }]},
+         {"name": "Finance and Investments", "children": [{
+            "rank": 36,
+            "name": "Joseph Safra",
+            "last": "Safra",
+            "age": 79,
+            "country": "Brazil",
+            "gender": "M",
+            "source": "banking",
+            "industry": "Finance and Investments",
+            "size": 23500,
+            "worthChange": 0,
+            "image": "https:http://specials-images.forbesimg.com/imageserve/5722763231358e1869e2bbc0/416x416.jpg?background=000000&cropX1=161&cropX2=647&cropY1=16&cropY2=502"
+          }] }
+      ]
+    },
+    {
+      "name": "Canada",
+      "children": [{"name": "Media & Entertainment", "children": [{
+         "rank": 33,
+         "name": "David Thomson",
+         "last": "Thomson",
+         "age": 61,
+         "country": "Canada",
+         "gender": "M",
+         "source": "media",
+         "industry": "Media & Entertainment",
+         "size": 25000,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a7ba72aa7ea43169012f1b4/416x416.jpg?background=000000&cropX1=566&cropX2=3532&cropY1=6&cropY2=2972"
+       }]}
+      ]
+    },
+    {
+      "name": "Italy",
+      "children": [
+         {"name": "Food and Beverage", "children": [{
+            "rank": 37,
+            "name": "Giovanni Ferrero",
+            "last": "Ferrero",
+            "age": 53,
+            "country": "Italy",
+            "gender": "M",
+            "source": "Nutella, chocolates",
+            "industry": "Food and Beverage",
+            "size": 23000,
+            "worthChange": 0,
+            "image": "https:http://specials-images.forbesimg.com/imageserve/5722763231358e1869e2bbc0/416x416.jpg?background=000000&cropX1=161&cropX2=647&cropY1=16&cropY2=502"
+          }]},
+         {"name": "Fashion & Retail", "children": [{
+            "rank": 45,
+            "name": "Leonardo Del Vecchio",
+            "last": "Del Vecchio",
+            "age": 83,
+            "country": "Italy",
+            "gender": "M",
+            "source": "eyeglasses",
+            "industry": "Fashion & Retail",
+            "size": 21200,
+            "worthChange": 0.006,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7f931f31358e4955ad1e20/416x416.jpg?background=000000&cropX1=4&cropX2=1440&cropY1=4&cropY2=1440"
+          }] }
+      ]
+    },
+    {
+      "name": "Austria",
+      "children": [
+      {
+         "name": "Food and Beverage",
+         "children": [{
+            "rank": 38,
+            "name": "Dietrich Mateschitz",
+            "last": "Mateschitz",
+            "age": 74,
+            "country": "Austria",
+            "gender": "M",
+            "source": "Red Bull",
+            "industry": "Food and Beverage",
+            "size": 23000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7b6c3831358e4955acdba2/416x416.jpg?background=000000&cropX1=790&cropX2=3611&cropY1=12&cropY2=2832"
+          }]
+      }]
+    },
+    {
+      "name": "Japan",
+      "children": [
+         {"name": "Telecom", "children": [{
+            "rank": 40,
+            "name": "Masayoshi Son",
+            "last": "Son",
+            "age": 60,
+            "country": "Japan",
+            "gender": "M",
+            "source": "internet, telecom",
+            "industry": "Telecom",
+            "size": 22700,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5ac24da531358e4112b689b7/416x416.jpg?background=000000&cropX1=864&cropX2=4200&cropY1=0&cropY2=3334"
+          }]},
+         {"name": "Fashion & Retail", "children": [{
+            "rank": 56,
+            "name": "Tadashi Yanai",
+            "last": "Yanai",
+            "age": 69,
+            "country": "Japan",
+            "gender": "M",
+            "source": "fashion retail",
+            "industry": "Fashion & Retail",
+            "size": 19500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5ac24e1ca7ea432fbc1dc7fa/416x416.jpg?background=000000&cropX1=874&cropX2=2885&cropY1=491&cropY2=2501"
+          }]},
+         {"name": "Manufacturing", "children": [{
+            "rank": 68,
+            "name": "Takemitsu Takizaki",
+            "last": "Takizaki",
+            "age": 73,
+            "country": "Japan",
+            "gender": "M",
+            "source": "sensors",
+            "industry": "Manufacturing",
+            "size": 17500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a0a24205655325303469e7ab36397dc/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=116&cropY2=860"
+          }]}
+      ]
+    },
+    {
+      "name": "Philippines",
+      "children": [{
+         "name": "Diversified",
+         "children": [{
+            "rank": 53,
+            "name": "Henry Sy",
+            "last": "Sy",
+            "age": 93,
+            "country": "Philippines",
+            "gender": "M",
+            "source": "diversified",
+            "industry": "Diversified",
+            "size": 20000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8ed22d31358e4955ae072b/416x416.jpg?background=000000&cropX1=568&cropX2=3083&cropY1=131&cropY2=2647"
+          }]
+      }]
+    },
+    {
+      "name": "United Kingdom",
+      "children": [
+         {"name": "Diversified", "children": [{
+            "rank": 55,
+            "name": "Hinduja family",
+            "last": "Hinduja",
+            "age": null,
+            "country": "United Kingdom",
+            "gender": "M",
+            "source": "diversified",
+            "industry": "Diversified",
+            "size": 19500,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8159ea4bbe6f2652f547d4/416x416.jpg?background=000000&cropX1=1029&cropX2=3189&cropY1=6&cropY2=2165"
+          }]},
+         {"name": "Manufacturing", "children": [{
+            "rank": 79,
+            "name": "James Ratcliffe",
+            "last": "Ratcliffe",
+            "age": 65,
+            "country": "United Kingdom",
+            "gender": "M",
+            "source": "chemicals",
+            "industry": "Manufacturing",
+            "size": 16400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a815b254bbe6f2652f547e0/416x416.jpg?background=000000&cropX1=252&cropX2=2046&cropY1=814&cropY2=2608"
+          }]},
+         {"name": "Real Estate", "children": [{
+            "rank": 90,
+            "name": "David & Simon Reuben",
+            "last": "Reuben",
+            "age": null,
+            "country": "United Kingdom",
+            "gender": "M",
+            "source": "investments, real estate",
+            "industry": "Real Estate",
+            "size": 15500,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/58ee56d9a7ea437ada262e00/416x416.jpg?background=000000&cropX1=253&cropX2=1732&cropY1=64&cropY2=1543"
+          }]}
+      ]
+    },
+    {
+      "name": "Russia",
+      "children": [
+         {"name": "Metals & Mining", "children": [{
+            "rank": 57,
+            "name": "Vladimir Lisin",
+            "last": "Lisin",
+            "age": 62,
+            "country": "Russia",
+            "gender": "M",
+            "source": "steel, transport",
+            "industry": "Metals & Mining",
+            "size": 19100,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80c93d31358e4955ad2cb5/416x416.jpg?background=000000&cropX1=9&cropX2=1871&cropY1=148&cropY2=2012"
+          },
+          {
+            "rank": 60,
+            "name": "Alexey Mordashov",
+            "last": "Mordashov",
+            "age": 52,
+            "country": "Russia",
+            "gender": "M",
+            "source": "steel, investments",
+            "industry": "Metals & Mining",
+            "size": 18700,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a808e7a4bbe6f2652f53d31/416x416.jpg?background=000000&cropX1=846&cropX2=3515&cropY1=0&cropY2=2667"
+          },
+          {
+            "rank": 84,
+            "name": "Vladimir Potanin",
+            "last": "Potanin",
+            "age": 57,
+            "country": "Russia",
+            "gender": "M",
+            "source": "metals",
+            "industry": "Metals & Mining",
+            "size": 15900,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80c98d31358e4955ad2cc0/416x416.jpg?background=000000&cropX1=75&cropX2=2250&cropY1=5&cropY2=2181"
+          }]},
+         {"name": "Energy", "children": [{
+            "rank": 64,
+            "name": "Leonid Mikhelson",
+            "last": "Mikhelson",
+            "age": 62,
+            "country": "Russia",
+            "gender": "M",
+            "source": "gas, chemicals",
+            "industry": "Energy",
+            "size": 18000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80ab314bbe6f2652f53efa/416x416.jpg?background=000000&cropX1=654&cropX2=3172&cropY1=5&cropY2=2522"
+          },
+          {
+            "rank": 78,
+            "name": "Vagit Alekperov",
+            "last": "Alekperov",
+            "age": 67,
+            "country": "Russia",
+            "gender": "M",
+            "source": "oil",
+            "industry": "Energy",
+            "size": 16400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80c400a7ea431690133cb7/416x416.jpg?background=000000&cropX1=481&cropX2=2139&cropY1=0&cropY2=1658"
+          },
+          {
+            "rank": 82,
+            "name": "Gennady Timchenko",
+            "last": "Timchenko",
+            "age": 65,
+            "country": "Russia",
+            "gender": "M",
+            "source": "oil, gas",
+            "industry": "Energy",
+            "size": 16000,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80a596a7ea431690133b09/416x416.jpg?background=000000&cropX1=5&cropX2=2533&cropY1=460&cropY2=2990"
+          },
+          {
+            "rank": 89,
+            "name": "Andrey Melnichenko",
+            "last": "Melnichenko",
+            "age": 46,
+            "country": "Russia",
+            "gender": "M",
+            "source": "coal, fertilizers",
+            "industry": "Energy",
+            "size": 15500,
+            "worthChange": 0.303,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a809da44bbe6f2652f53def/416x416.jpg?background=000000&cropX1=651&cropX2=3302&cropY1=6&cropY2=2656"
+          },
+          {
+            "rank": 93,
+            "name": "Mikhail Fridman",
+            "last": "Fridman",
+            "age": 54,
+            "country": "Russia",
+            "gender": "M",
+            "source": "oil, banking, telecom",
+            "industry": "Energy",
+            "size": 15100,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80ac47a7ea431690133b64/416x416.jpg?background=000000&cropX1=534&cropX2=3793&cropY1=7&cropY2=3263"
+          },
+          {
+            "rank": 99,
+            "name": "Viktor Vekselberg",
+            "last": "Vekselberg",
+            "age": 61,
+            "country": "Russia",
+            "gender": "M",
+            "source": "metals, energy",
+            "industry": "Energy",
+            "size": 14400,
+            "worthChange": 0.047,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a80c89231358e4955ad2ca8/416x416.jpg?background=000000&cropX1=752&cropX2=3164&cropY1=5&cropY2=2416"
+          }]}
+      ]
+    },
+    {
+      "name": "South Korea",
+      "children": [{"name": "Diversified", "children": [{
+         "rank": 61,
+         "name": "Lee Kun-Hee",
+         "last": "Lee",
+         "age": 76,
+         "country": "South Korea",
+         "gender": "M",
+         "source": "Samsung",
+         "industry": "Diversified",
+         "size": 18600,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/58f8d8e84bbe6f1aff4612ef/416x416.jpg?background=000000&cropX1=0&cropX2=705&cropY1=31&cropY2=737"
+       }]}]
+    },
+    {
+      "name": "Thailand",
+      "children": [{"name": "Food and Beverage", "children": [{
+         "rank": 65,
+         "name": "Charoen Sirivadhanabhakdi",
+         "last": "Sirivadhanabhakdi",
+         "age": 74,
+         "country": "Thailand",
+         "gender": "M",
+         "source": "drinks, real estate",
+         "industry": "Food and Beverage",
+         "size": 17900,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/58a2956ca7ea431f321976b1/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=85&cropY2=829"
+       }]}, 
+      {"name": "Diversified", "children": [{
+         "rank": 95,
+         "name": "Dhanin Chearavanont",
+         "last": "Chearavanont",
+         "age": 79,
+         "country": "Thailand",
+         "gender": "M",
+         "source": "diversified",
+         "industry": "Diversified",
+         "size": 14900,
+         "worthChange": -0.001,
+         "image": "https://specials-images.forbesimg.com/imageserve/58accecd4bbe6f0e55874019/416x416.jpg?background=000000&cropX1=61&cropX2=684&cropY1=226&cropY2=850"
+       }]}]
+    },
+    {
+      "name": "Ireland",
+      "children": [{"name": "Construction & Engineering", "children": [{
+         "rank": 66,
+         "name": "Pallonji Mistry",
+         "last": "Mistry",
+         "age": 89,
+         "country": "Ireland",
+         "gender": "M",
+         "source": "construction",
+         "industry": "Construction & Engineering",
+         "size": 17800,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/222dbe79a423261046cbdb42ac70e16b/416x416.jpg?background=000000&cropX1=3&cropX2=744&cropY1=3&cropY2=744"
+       }]}]
+    },
+    {
+      "name": "Indonesia",
+      "children": [
+         {"name": "Finance and Investments", "children": [{
+            "rank": 70,
+            "name": "R. Budi Hartono",
+            "last": "Hartono",
+            "age": 77,
+            "country": "Indonesia",
+            "gender": "M",
+            "source": "banking, tobacco",
+            "industry": "Finance and Investments",
+            "size": 17400,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/b8d46ef97d58d450be629bd0fddc9a6e/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=10&cropY2=754"
+          }]},
+         {"name": "Manufacturing", "children": [{
+            "rank": 75,
+            "name": "Michael Hartono",
+            "last": "Hartono",
+            "age": 78,
+            "country": "Indonesia",
+            "gender": "M",
+            "source": "banking, tobacco",
+            "industry": "Manufacturing",
+            "size": 16700,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a8121d54bbe6f2652f545f0/416x416.jpg?background=000000&cropX1=599&cropX2=2597&cropY1=15&cropY2=2015"
+          }]}
+      ]
+    },
+    {
+      "name": "Australia",
+      "children": [
+      {
+         "name": "Metals & Mining",
+         "children": [{
+            "rank": 71,
+            "name": "Gina Rinehart",
+            "last": "Rinehart",
+            "age": 64,
+            "country": "Australia",
+            "gender": "F",
+            "source": "mining",
+            "industry": "Metals & Mining",
+            "size": 17400,
+            "worthChange": -1.257,
+            "image": "https://specials-images.forbesimg.com/imageserve/59f73f7831358e542c046b65/416x416.jpg?background=000000&cropX1=211&cropX2=1123&cropY1=82&cropY2=995"
+          }]
+      }]
+    },
+    {
+      "name": "Sweden",
+      "children": [{"name": "Fashion & Retail", "children": [{
+         "rank": 74,
+         "name": "Stefan Persson",
+         "last": "Persson",
+         "age": 70,
+         "country": "Sweden",
+         "gender": "M",
+         "source": "H&M",
+         "industry": "Fashion & Retail",
+         "size": 16800,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/5a8121d54bbe6f2652f545f0/416x416.jpg?background=000000&cropX1=599&cropX2=2597&cropY1=15&cropY2=2015"
+       }]}]
+    },
+    {
+      "name": "Chile",
+      "children": [{
+         "name": "Metals & Mining",
+         "children": [{
+            "rank": 81,
+            "name": "Iris Fontbona",
+            "last": "Fontbona",
+            "age": 75,
+            "country": "Chile",
+            "gender": "F",
+            "source": "mining",
+            "industry": "Metals & Mining",
+            "size": 16300,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/57e575c94bbe6f24d1f891ce/416x416.jpg?background=000000&cropX1=126&cropX2=651&cropY1=31&cropY2=556"
+          }]
+      }]
+    },
+    {
+      "name": "Netherlands",
+      "children": [{
+         "name": "Food and Beverage",
+         "children": [{
+            "rank": 86,
+            "name": "Charlene de Carvalho-Heineken",
+            "last": "de Carvalho-Heineken",
+            "age": 63,
+            "country": "Netherlands",
+            "gender": "F",
+            "source": "Heineken",
+            "industry": "Food and Beverage",
+            "size": 15800,
+            "worthChange": 0,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7fd414a7ea4316901331b7/416x416.jpg?background=000000&cropX1=0&cropX2=3280&cropY1=887&cropY2=4168"
+          }]
+      }]
+    },
+    {
+      "name": "Czech Republic",
+      "children": [{"name": "Finance and Investments", "children": [ {
+         "rank": 88,
+         "name": "Petr Kellner",
+         "last": "Kellner",
+         "age": 54,
+         "country": "Czech Republic",
+         "gender": "M",
+         "source": "banking",
+         "industry": "Finance and Investments",
+         "size": 15500,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/4023ab5df9aad04f544e7dfde9031598/416x416.jpg?background=000000&cropX1=32&cropX2=723&cropY1=3&cropY2=694"
+       }]}]
+    },
+    {
+      "name": "Malaysia",
+      "children": [{"name": "Diversified", "children": [{
+         "rank": 96,
+         "name": "Robert Kuok",
+         "last": "Kuok",
+         "age": 94,
+         "country": "Malaysia",
+         "gender": "M",
+         "source": "palm oil, shipping, property",
+         "industry": "Diversified",
+         "size": 14800,
+         "worthChange": 0,
+         "image": "https://specials-images.forbesimg.com/imageserve/4f21e64d970512f81a766649fb072f0d/416x416.jpg?background=000000&cropX1=3&cropX2=744&cropY1=2&cropY2=743"
+       }]}]
+    },
+    {
+      "name": "Nigeria",
+      "children": [{
+         "name": "Manufacturing",
+         "children": [{
+            "rank": 100,
+            "name": "Aliko Dangote",
+            "last": "Dangote",
+            "age": 61,
+            "country": "Nigeria",
+            "gender": "M",
+            "source": "cement, sugar, flour",
+            "industry": "Manufacturing",
+            "size": 14100,
+            "worthChange": 0.001,
+            "image": "https://specials-images.forbesimg.com/imageserve/5a7fd828a7ea43169013322e/416x416.jpg?background=000000&cropX1=240&cropX2=2897&cropY1=11&cropY2=2667"
+          }]
+      }]
+    }
+   ]
+}
